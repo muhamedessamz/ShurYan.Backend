@@ -67,27 +67,27 @@ ShurYan follows **Clean Architecture** principles with clear separation of conce
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                  Presentation Layer                  │
-│              (Shuryan.API - Controllers)             │
+│                  Presentation Layer                 │
+│              (Shuryan.API - Controllers)            │
 └──────────────────┬──────────────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────────────┐
-│                 Application Layer                    │
+│                 Application Layer                   │
 │    (Shuryan.Application - Services, DTOs, Maps)     │
 └──────────────────┬──────────────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────────────┐
-│                   Domain Layer                       │
+│                   Domain Layer                      │
 │      (Shuryan.Core - Entities, Interfaces)          │
 └──────────────────┬──────────────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────────────┐
-│              Infrastructure Layer                    │
+│              Infrastructure Layer                   │
 │  (Shuryan.Infrastructure - Data, Repositories)      │
 └──────────────────┬──────────────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────────────┐
-│              Cross-Cutting Concerns                  │
+│              Cross-Cutting Concerns                 │
 │   (Shuryan.Shared - Extensions, Configurations)     │
 └─────────────────────────────────────────────────────┘
 ```
