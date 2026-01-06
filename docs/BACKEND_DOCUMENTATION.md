@@ -23,6 +23,10 @@
 
 ---
 
+> 📌 **Main Repository**: This is the **Backend** repository. For project overview and links to all repositories, visit the [**ShurYan Main Repository**](https://github.com/muhamedessamz/ShurYan).
+
+---
+
 ## Table of Contents
 
 1. [Project Introduction](#project-introduction)
