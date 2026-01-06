@@ -9,6 +9,18 @@
   <strong>Developed as a Graduation Project for the <a href="https://depi.gov.eg/">Dew of Egypt Digital Initiative (DEPI)</a></strong>
 </div>
 
+<br/>
+
+<div align="center">
+  
+![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![DEPI](https://img.shields.io/badge/DEPI-2025-orange?style=for-the-badge)
+
+</div>
+
 ---
 
 ## Table of Contents
@@ -72,6 +84,11 @@ ShurYan follows **Clean Architecture** principles with clear separation of conce
 ┌──────────────────▼──────────────────────────────────┐
 │              Infrastructure Layer                    │
 │  (Shuryan.Infrastructure - Data, Repositories)      │
+└──────────────────┬──────────────────────────────────┘
+                   │
+┌──────────────────▼──────────────────────────────────┐
+│              Cross-Cutting Concerns                  │
+│   (Shuryan.Shared - Extensions, Configurations)     │
 └─────────────────────────────────────────────────────┘
 ```
 
